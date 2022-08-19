@@ -1,0 +1,164 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none !important;
+}
+
+body{
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 16px;
+    line-height: 19px;
+    color:  #232222;
+}
+
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container__products{
+    max-width: 1220px;
+    padding-top: 80px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+.navbar{
+    background-color: #865235;
+    border-radius: 30px;
+    padding: 0;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.header__content{
+
+    background-image: url(../home-images/coffee.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+    padding-bottom: 20px;
+    margin-top: -150px;
+    min-height: calc(100vh - 50px);
+}
+
+.header__content .container{
+    display: flex;
+    justify-content: space-between;    
+    padding-top: 100px;
+}
+
+.title__slogan{
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.title{
+    font-family: 'Pacifico', cursive;
+    font-weight: 70;
+    font-size: 72px;
+    line-height: 95px;
+    color:#865235;
+    max-width: 589px;
+    padding-top: 200px;
+    padding-right: 110px;
+    margin-bottom: 20px;
+}
+
+.slogan{
+    font-weight: 70;
+    font-size: 40px;
+    color:#865235;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.card-title{
+    font-weight: 1000;
+}
+
+.btn.addToCart{
+    color: #fff;
+    background-color: #865235;
+}
+
+.message{
+    height: 100px;
+}
+
+.product__inner{
+    padding-top: 110px;
+}
+
+.product-prev,
+.product-next{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.product__content{
+    width: 600px;
+}
+
+.product__content-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__content-img{
+    object-fit: cover;
+    border: 10px solid #fff;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.product__content-title{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5c3a28;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.product__content-text{
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #865235;
+    padding-left: 30px;
+}
+
